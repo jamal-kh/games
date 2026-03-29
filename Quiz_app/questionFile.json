@@ -1,0 +1,82 @@
+[
+  {
+    "title": "What is a detective mainly responsible for?",
+    "answer_1": "Solving crimes and gathering evidence",
+    "answer_2": "Creating laws",
+    "answer_3": "Defending criminals in court",
+    "answer_4": "Writing news reports",
+    "right_answer": "Solving crimes and gathering evidence"
+  },
+  {
+    "title": "Who is Sherlock Holmes?",
+    "answer_1": "A famous fictional detective known for deduction skills",
+    "answer_2": "A real police officer in London",
+    "answer_3": "A criminal mastermind",
+    "answer_4": "A courtroom judge",
+    "right_answer": "A famous fictional detective known for deduction skills"
+  },
+  {
+    "title": "Who created Sherlock Holmes?",
+    "answer_1": "Arthur Conan Doyle",
+    "answer_2": "Agatha Christie",
+    "answer_3": "J.K. Rowling",
+    "answer_4": "Mark Twain",
+    "right_answer": "Arthur Conan Doyle"
+  },
+  {
+    "title": "Who is Conan (Detective Conan)?",
+    "answer_1": "A young detective with exceptional deduction skills",
+    "answer_2": "A police chief in Tokyo",
+    "answer_3": "A thief who steals jewels",
+    "answer_4": "A lawyer in court",
+    "right_answer": "A young detective with exceptional deduction skills"
+  },
+  {
+    "title": "Who is Hercule Poirot?",
+    "answer_1": "A fictional detective created by Agatha Christie",
+    "answer_2": "A real detective in France",
+    "answer_3": "A police inspector in London",
+    "answer_4": "A criminal in disguise",
+    "right_answer": "A fictional detective created by Agatha Christie"
+  },
+  {
+    "title": "What is a crime scene?",
+    "answer_1": "A place where evidence is collected after a crime",
+    "answer_2": "A courtroom",
+    "answer_3": "A police training center",
+    "answer_4": "A prison cell",
+    "right_answer": "A place where evidence is collected after a crime"
+  },
+  {
+    "title": "What is forensic science used for?",
+    "answer_1": "Analyzing evidence from crimes",
+    "answer_2": "Teaching math",
+    "answer_3": "Building houses",
+    "answer_4": "Designing clothes",
+    "right_answer": "Analyzing evidence from crimes"
+  },
+  {
+    "title": "Who investigates crimes in police departments?",
+    "answer_1": "Detectives",
+    "answer_2": "Doctors",
+    "answer_3": "Engineers",
+    "answer_4": "Teachers",
+    "right_answer": "Detectives"
+  },
+  {
+    "title": "What is a suspect?",
+    "answer_1": "A person believed to have committed a crime",
+    "answer_2": "A police officer",
+    "answer_3": "A witness only",
+    "answer_4": "A judge",
+    "right_answer": "A person believed to have committed a crime"
+  },
+  {
+    "title": "What is evidence?",
+    "answer_1": "Information used to prove or disprove a crime",
+    "answer_2": "A type of punishment",
+    "answer_3": "A court decision",
+    "answer_4": "A police badge",
+    "right_answer": "Information used to prove or disprove a crime"
+  }
+]

@@ -1,0 +1,159 @@
+:root {
+    /* Updated Palette */
+    --primary: #4e00de;
+    --primary-hover: #3a00a5;
+    --bg-body: #f4f7f6;
+    --bg-card: #ffffff;
+    --text-main: #2d3436;
+    --text-muted: #636e72;
+    --border-clr: #dfe6e9;
+    --accent-blue: #90d9df;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container & Card Style */
+.quiz-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.card, .app {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Progress & Header */
+.quiz-header {
+    margin-bottom: 2rem;
+}
+
+.quiz-meta {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+/* Question Area */
+.question-box h2 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+/* Options Grid */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column on mobile */
+    gap: 12px;
+}
+
+@media (min-width: 480px) {
+    .options-grid {
+        grid-template-columns: 1fr 1fr; /* Two columns on desktop */
+    }
+}
+
+.btn-option {
+    background: transparent;
+    border: 2px solid var(--border-clr);
+    padding: 15px;
+    text-align: left;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.btn-option:hover {
+    border-color: var(--accent-blue);
+    background: #f0fbfc;
+}
+
+.btn-option::before {
+    content: attr(data-alpha);
+    text-transform: uppercase;
+    background: var(--border-clr);
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Primary Action Buttons */
+.btn-primary {
+    width: 100%;
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background: var(--primary-hover);
+}
+
+.btn-primary:active {
+    transform: scale(0.98);
+}
+
+
+/* Center everything in the result state */
+.result-box {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.final-score {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #4e00de;
+    margin: 10px 0;
+}
+
+#result-msg {
+    font-size: 1.2rem;
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
+/* Make the button slightly different to stand out */
+.restart-btn {
+    background-color: #2d3436;
+}
+
+/* Helpers */
+.hidden {
+    display: none !important;
+}

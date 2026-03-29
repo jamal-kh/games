@@ -1,0 +1,71 @@
+:root {
+  --bg-color: #0f172a;
+  --canvas-bg: #1e293b;
+  --accent-color: #38bdf8;
+  --text-color: #f8fafc;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.game-container {
+  position: relative;
+  background: var(--canvas-bg);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* The Canvas Style */
+canvas {
+  cursor: pointer;
+  display: block;
+  /* Using transition for a subtle glow effect on hover */
+  transition: filter 0.3s ease;
+}
+
+canvas:active {
+  filter: brightness(1.1);
+}
+
+.status-panel {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.reset-btn {
+  background: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-btn:hover {
+  background: var(--accent-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 15px var(--accent-color);
+}

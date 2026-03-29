@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Hangman</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <div class="overlay" id="startGame">
+            <div class="modal">
+                <h1>SYSTEM BOOT</h1>
+                <p>Decrypt the data before the terminal shuts down.</p>
+                <button class="neon-btn" id="StartBtn">INITIALIZE</button>
+            </div>
+        </div>
+
+        <main class="game-section" id="GameSection">
+           <header class="game-header">
+                <div class="hud-item">
+                    <small>TIMER</small>
+                    <div id="timer"></div>
+                </div>
+                <div class="hud-item">
+                    <small>HINT</small>
+                    <div id="question">Loading hint...</div>
+                </div>
+            </header>
+
+            <div class="game-grid">
+                <div class="canvas-wrapper">
+                    <canvas id="hangmanCanvas" width="300" height="350"></canvas>
+                </div>
+
+                <div class="mechanics-wrapper">
+                    <div class="word-display" id="lines">
+                    </div>
+                    
+                    <div class="keyboard" id="alphabets">
+                        </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

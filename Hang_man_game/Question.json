@@ -1,0 +1,82 @@
+[
+  {
+    "hint": "Which programming language is known for its simplicity and readability?",
+    "answer": "PYTHON"
+  },
+  {
+    "hint": "Which operating system is developed by Microsoft?",
+    "answer": "WINDOWS"
+  },
+  {
+    "hint": "Which version control system is widely used by developers?",
+    "answer": "GIT"
+  },
+  {
+    "hint": "Which library is commonly used to build dynamic user interfaces on the web?",
+    "answer": "REACT"
+  },
+  {
+    "hint": "Which cloud computing platform is offered by Amazon?",
+    "answer": "AWS"
+  },
+  {
+    "hint": "Which object-oriented programming language was developed by Sun Microsystems?",
+    "answer": "JAVA"
+  },
+  {
+    "hint": "Which lightweight markup language is commonly used for documentation?",
+    "answer": "MARKDOWN"
+  },
+  {
+    "hint": "Which relational database management system is widely used?",
+    "answer": "MYSQL"
+  },
+  {
+    "hint": "Which scripting language is primarily used for web development in browsers?",
+    "answer": "JAVASCRIPT"
+  },
+  {
+    "hint": "Which open-source web server software is widely used on the internet?",
+    "answer": "APACHE"
+  },
+  {
+    "hint": "Which code editor developed by Microsoft is popular among developers?",
+    "answer": "VSCODE"
+  },
+  {
+    "hint": "Which runtime environment allows JavaScript to run outside the browser?",
+    "answer": "NODE JS"
+  },
+  {
+    "hint": "Which Linux distribution is known for being beginner-friendly?",
+    "answer": "UBUNTU"
+  },
+  {
+    "hint": "Which IDE is commonly used for Java development?",
+    "answer": "ECLIPSE"
+  },
+  {
+    "hint": "Which web browser is developed by Google?",
+    "answer": "CHROME"
+  },
+  {
+    "hint": "Which programming paradigm focuses on using pure functions?",
+    "answer": "FUNCTIONAL PROGRAMMING"
+  },
+  {
+    "hint": "Which platform is widely used for team communication and collaboration?",
+    "answer": "SLACK"
+  },
+  {
+    "hint": "Which Python library is commonly used for data visualization?",
+    "answer": "MATPLOTLIB"
+  },
+  {
+    "hint": "Which JavaScript library is used to build component-based user interfaces?",
+    "answer": "REACT"
+  },
+  {
+    "hint": "Which system is used to manage containerized applications at scale?",
+    "answer": "KUBERNETES"
+  }
+]

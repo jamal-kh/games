@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz-container">
+        <div class="card" id="start-screen">
+            <h1>Ready for the Challenge?</h1>
+            <p>Test your knowledge with  quick questions.</p>
+            <button class="btn-primary start_btn">Start Quiz</button>
+        </div>
+
+        <article class="app hidden">
+            <header class="quiz-header">
+                <div class="quiz-meta">
+                    <span class="question-index"></span>
+                    <div class="timer"></div>
+                </div>
+            </header>
+
+            <section class="question-box">
+            </section>
+
+            <section class="options-grid">
+            </section>
+        </article>
+        
+        <div id="result-state" class="state hidden">
+            <div class="result-box">
+                <h2>Quiz Finished!</h2>
+
+                <div class="final-score">
+                    <span id="score-num">0</span> / 10
+                </div>
+
+                <p id="result-msg">Good effort!</p>
+
+                <button class="btn-primary restart-btn">Try Again</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
